@@ -2,6 +2,10 @@
 
 Summary: This software generates free verse poetry interactively using GPT-2, a transformer-based neural network. A human user accepts or rejects generated chunks of text until poem is complete.
 
+This is the code for the paper "Generating Free Verse Poetry With Transformer Networks", available here: https://www.dropbox.com/s/1s5ix4erqhrsdz2/Generating_Free_Verse_Poetry_With_Transformer_Networks.pdf?dl=0 . It is my senior (computer science) thesis for Reed College (2019).
+
+
+
 
 To Install:
 
