@@ -5,7 +5,7 @@ import sys
 import numpy as np
 import tensorflow as tf
 
-import model, sample, encoder
+from src import model, sample, encoder
 
 
 class Generator:
