@@ -1,6 +1,6 @@
 
 
-from generator import Generator
+from src.generator import Generator
 import fire
 
 def main(checkpoint_dir="checkpoint/12-8", prompt=''):
