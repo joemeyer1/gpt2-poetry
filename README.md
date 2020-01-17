@@ -13,7 +13,7 @@ This software has been tested and confirmed compatible with Python 3.6.8 and Pyt
 
 To Launch:
 
-1) Navigate to this repository (i.e. open a shell and type 'cd gpt2-poetry' - or 'cd downloads/gpt2-poetry' if you downloaded this repository as a .zip instead of cloning it directly to your home directory). Then type 
+1) Navigate to this repository (i.e. open a shell and type 'cd gpt2-poetry' - or 'cd downloads/gpt2-poetry' if you downloaded this repository as a .zip instead of cloning it directly to your home directory).
 
 2) Once you have opened a shell and navigated to this repository, type 'python main.py'. Assuming you have followed the installation instructions the program should start running.
 
