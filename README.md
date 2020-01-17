@@ -1,6 +1,6 @@
 # gpt2-poetry
 
-Summary: This software generates free verse poetry (as chunks of text) using GPT-2, a transformer-based neural network. 
+Summary: This software generates free verse poetry interactively using GPT-2, a transformer-based neural network. A human user accepts or rejects generated chunks of text until poem is complete.
 
 
 To Install:
