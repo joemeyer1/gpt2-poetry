@@ -42,3 +42,6 @@ press 's' to save
 press 'r' to reset prompt
 
 press 'q' to quit
+
+
+Copyright (c) 2019 Joe Meyer Licensed under the GNU GPLv3 License: https://www.gnu.org/licenses/gpl-3.0.html
