@@ -1,5 +1,8 @@
 # gpt2-poetry
 
+Summary: This software generates free verse poetry (as chunks of text) using GPT-2, a transformer-based neural network. 
+
+
 To Install:
 
 1) Install python version >= 3.6.8 from: https://www.python.org/downloads/ . (To install a specific Python version, i.e. '3.6.8', you can just go to this url, command-f then type your version, i.e. '3.6.8' - there will only be one match.)
