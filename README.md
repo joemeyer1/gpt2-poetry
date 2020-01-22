@@ -2,7 +2,7 @@
 
 Summary: This software generates free verse poetry interactively using GPT-2, a transformer-based neural network. A human user accepts or rejects generated chunks of text until poem is complete.
 
-This is the code for the paper "Generating Free Verse Poetry With Transformer Networks" (Copyright (c) 2019 Joseph Meyer), available here: https://www.dropbox.com/s/1s5ix4erqhrsdz2/Generating_Free_Verse_Poetry_With_Transformer_Networks.pdf?dl=0 . It is my senior thesis for Reed College (Computer Science BA, 2019).
+This is the code for the paper "Generating Free Verse Poetry With Transformer Networks" (Copyright (c) 2019 Joseph Meyer & Mark Hopkins), available here: https://www.dropbox.com/s/1s5ix4erqhrsdz2/Generating_Free_Verse_Poetry_With_Transformer_Networks.pdf?dl=0 . It is my senior thesis for Reed College (Computer Science BA, 2019).
 
 
 
@@ -48,6 +48,6 @@ press 'r' to reset prompt
 press 'q' to quit
 
 
-Copyright (c) 2019 Joseph Meyer Licensed under the GNU GPLv3 License: https://www.gnu.org/licenses/gpl-3.0.html
+Copyright (c) 2019 Joseph Meyer & Mark Hopkins Licensed under the GNU GPLv3 License: https://www.gnu.org/licenses/gpl-3.0.html
 
 Legal Note: The original GPT-2 software was developed by OpenAI and released under the MIT License (https://github.com/nshepperd/gpt-2/blob/finetuning/LICENSE). You can find it here: https://github.com/nshepperd/gpt-2 . If you want to use GPT-2 code under the MIT License instead of the GNU GPLv3 License, download it from OpenAI - NOT from me. Some files in this repository share names with files from the original GPT-2 repository but have been modified from their original form. If you use code from this repository you must comply with GPLv3 rules.
