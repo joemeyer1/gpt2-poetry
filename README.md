@@ -1,13 +1,15 @@
 # gpt2-poetry
 
-Summary: This software generates free verse poetry interactively using GPT-2, a transformer-based neural network. A human user accepts or rejects generated chunks of text until poem is complete.
+## Summary
+
+This software generates free verse poetry interactively using GPT-2, a transformer-based neural network. A human user accepts or rejects generated chunks of text until poem is complete.
 
 This is the code for the paper "Generating Free Verse Poetry With Transformer Networks" (Copyright (c) 2019 Joseph Meyer & Mark Hopkins), available here: https://www.dropbox.com/s/1s5ix4erqhrsdz2/Generating_Free_Verse_Poetry_With_Transformer_Networks.pdf?dl=0 . It is my senior thesis for Reed College (Computer Science BA, 2019).
 
 
 
 
-To Install:
+## To Install
 
 1) Install python version >= 3.6.8 from: https://www.python.org/downloads/ . (To install a specific Python version, i.e. '3.6.8', you can just go to this url, command-f then type your version, i.e. '3.6.8' - there will only be one match.)
 This software has been tested and confirmed compatible with Python 3.6.8 and Python 3.7.4.
@@ -22,7 +24,7 @@ This software has been tested and confirmed compatible with Python 3.6.8 and Pyt
 
 
 
-To Launch:
+## To Launch
 
 1) Navigate to this repository (i.e. open a shell and type 'cd gpt2-poetry' - or 'cd downloads/gpt2-poetry' if you downloaded this repository as a .zip instead of cloning it directly to your home directory).
 
@@ -30,7 +32,7 @@ To Launch:
 
 
 
-To Use:
+## To Use
 
 Basic Interface: The program will offer generated chunks of text, which you can accept ('enter' key), reject ('delete' key), or replace with custom text (arrowkey). You can also delete previously accepted chunks of text (backslash). Press 's' to save or 'r' to reset poems.
 
@@ -50,6 +52,7 @@ press 's' to save
 press 'r' to reset prompt
 
 press 'q' to quit
+
 
 
 Copyright (c) 2019 Joseph Meyer & Mark Hopkins Licensed under the GNU GPLv3 License: https://www.gnu.org/licenses/gpl-3.0.html
