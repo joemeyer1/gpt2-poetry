@@ -26,9 +26,9 @@ This software has been tested and confirmed compatible with Python 3.6.8 and Pyt
 
 ## To Launch
 
-1) Navigate to this repository (i.e. open a shell and type 'cd gpt2-poetry' - or 'cd downloads/gpt2-poetry' if you downloaded this repository as a .zip instead of cloning it directly to your home directory).
+1) Navigate to this repository (i.e. open a shell and type `cd gpt2-poetry` - or `cd downloads/gpt2-poetry` if you downloaded this repository as a .zip instead of cloning it directly to your home directory).
 
-2) Once you have opened a shell and navigated to this repository, type 'python main.py'. Assuming you have followed the installation instructions the program should start running.
+2) Once you have opened a shell and navigated to this repository, type `python main.py`. Assuming you have followed the installation instructions the program should start running.
 
 
 
@@ -39,7 +39,7 @@ Basic Interface: The program will offer generated chunks of text, which you can 
 
 You can press 'h' at any time to view instructions:
 
-press 'enter' to accept
+`press 'enter' to accept
 
 press 'delete' to reject
 
@@ -51,7 +51,7 @@ press 's' to save
 
 press 'r' to reset prompt
 
-press 'q' to quit
+press 'q' to quit`
 
 
 
