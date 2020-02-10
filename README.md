@@ -39,7 +39,7 @@ Basic Interface: The program will offer generated chunks of text, which you can 
 
 You can press 'h' at any time to view instructions:
 
-`press 'enter' to accept
+```press 'enter' to accept
 
 press 'delete' to reject
 
@@ -51,7 +51,7 @@ press 's' to save
 
 press 'r' to reset prompt
 
-press 'q' to quit`
+press 'q' to quit```
 
 
 
