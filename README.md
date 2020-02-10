@@ -18,9 +18,9 @@ This software has been tested and confirmed compatible with Python 3.6.8 and Pyt
 
 3) Install git-lfs from: https://git-lfs.github.com/ .
 
-4) Download this Github repository. Open a shell (i.e. the application called 'Terminal' if you are using a Mac), type 'git clone https://github.com/joemeyer1/gpt2-poetry.git', and hit enter.
+4) Download this Github repository. Open a shell (i.e. the application called 'Terminal' if you are using a Mac), type `git clone https://github.com/joemeyer1/gpt2-poetry.git`, and hit enter.
 
-5) Install library dependencies. The easiest way to do this is to navigate to this repository (i.e. type 'cd gpt2-poetry' into a shell then hit enter), then type 'pip install -r requirements.txt' and hit enter.
+5) Install library dependencies. The easiest way to do this is to navigate to this repository (i.e. type `cd gpt2-poetry` into a shell then hit enter), then type `pip install -r requirements.txt` and hit enter.
 
 
 
