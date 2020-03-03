@@ -90,6 +90,7 @@ class Generator:
 			saver.restore(sess, ckpt)	
 
 			context_tokens = self.enc.encode(prompt)
+			auto_accept = 0
 			while True:
 				# save old text to show in decision
 				pre_token_text = self.enc.decode(context_tokens[len(self.endoftext):]) 
@@ -100,18 +101,24 @@ class Generator:
 				for new_token in new_tokens:
 					# decode token
 					new_text = self.enc.decode(new_token)
-					# decide token
-					new_text, reset_prompt = self.decide(new_text, pre_token_text)
-					if reset_prompt:
-						context_tokens = self.enc.encode(prompt)
-						break
-					# backtrack if required
-					elif type(new_text) == int and new_text > 0:
-						new_text = min(new_text, len(context_tokens)-len(self.endoftext))
-						context_tokens = context_tokens[:-new_text]
-						break
+					if not auto_accept:
+						# decide token
+						new_text, reset_prompt = self.decide(new_text, pre_token_text)
+						if reset_prompt:
+							if type(reset_prompt) == int:
+								auto_accept = max(0, reset_prompt-1)
+							elif type(reset_prompt) == bool:
+								context_tokens = self.enc.encode(prompt)
+								break
+						# backtrack if required
+						elif type(new_text) == int and new_text > 0:
+							new_text = min(new_text, len(context_tokens)-len(self.endoftext))
+							context_tokens = context_tokens[:-new_text]
+							break
+					else:
+						auto_accept -= 1
 					# update context
-					elif new_text:
+					if new_text:
 						context_tokens += self.enc.encode(new_text)
 						break
 
@@ -158,6 +165,10 @@ class Generator:
 				new_text = self.get_custom_text(old_text)
 			elif char == '\\': # delete chunk
 				new_text = self.delete_chunk(old_text)
+			elif char == '/': # auto-accept next n chunks
+				reset_prompt = int(self.write_text_get_input(old_text, new_text+"\nHow many chunks to auto-accept?::"))
+				if reset_prompt == 0:
+					new_text = ''
 			elif char == 's':
 				self.save_poem(old_text)
 				new_text = ''
@@ -172,6 +183,7 @@ class Generator:
 				print("press 'delete' to reject")
 				print("press an arrowkey to edit")
 				print("press backslash to delete chunk")
+				print("press fwdslash to auto-accept next n chunks")
 				print("press 's' to save")
 				print("press 'r' to reset prompt")
 				print("press 'q' to quit\n")
