@@ -46,9 +46,9 @@ press 'delete' to reject
 
 press an arrowkey to edit
 
-press backslash to delete chunk
+press backslash ('\') to delete chunk
 
-press fwdslash to auto-accept n chunks
+press fwdslash ('/') to auto-accept n tokens
 
 press 's' to save
 
