@@ -48,6 +48,8 @@ press an arrowkey to edit
 
 press backslash to delete chunk
 
+press fwdslash to auto-accept n chunks
+
 press 's' to save
 
 press 'r' to reset prompt
