@@ -4,7 +4,7 @@
 
 This software generates free verse poetry interactively using GPT-2, a transformer-based neural network. A human user accepts or rejects generated chunks of text until poem is complete.
 
-This is the code for the paper "Generating Free Verse Poetry With Transformer Networks" (Copyright (c) 2019 Joseph Meyer & Mark Hopkins), available here: https://www.dropbox.com/s/1s5ix4erqhrsdz2/Generating_Free_Verse_Poetry_With_Transformer_Networks.pdf?dl=0 . It is my senior thesis for Reed College (Computer Science BA, 2019).
+This is the code for the paper "Generating Free Verse Poetry With Transformer Networks" (Copyright (c) 2019 Joseph Meyer & Mark Hopkins), available here: https://www.researchgate.net/publication/346737150_Generating_Free_Verse_Poetry_With_Transformer_Networks . It is my senior thesis for Reed College (Computer Science BA, 2019).
 
 
 
